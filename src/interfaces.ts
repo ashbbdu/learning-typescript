@@ -29,6 +29,11 @@ export interface CardProps {
     description : string
 }
 
+export interface CreateTodo {
+    title : string,
+    description : string
+}
+
 export interface Todos {
     _id : number,
     title : string,
